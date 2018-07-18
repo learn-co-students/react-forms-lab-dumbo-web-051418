@@ -6,7 +6,7 @@ import TwitterMessage from "./components/TwitterMessage";
 import PoemWriter from "./components/PoemWriter";
 
 const login = ({ username, password }) => {
-  console.log(`Logging in ${username} with password ${password}`);
+    console.log(`Logging in ${username} with password ${password}`);
 };
 
 ReactDOM.render(
